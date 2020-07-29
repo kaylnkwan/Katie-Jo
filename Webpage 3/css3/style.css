@@ -1,0 +1,588 @@
+h1 {
+	padding-left: 550px;
+	font-size: 70px;
+	font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Reenie Beanie', cursive;
+    color: #c0b283;
+
+}
+
+.navigation {
+    background-color: #f2eded;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 320px;
+    word-spacing: 200px;
+    position: sticky;
+}
+
+.navigation a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: grey;
+
+}
+ 
+ .navigation a:hover {
+  color: #c0b283;
+  text-decoration: bold;
+}
+
+.article1 {
+}
+
+#shadow1 {
+    z-index: 0;
+    position:absolute;
+    padding-top: 120px;
+    padding-left: 120px;
+    size: contain;
+}
+
+#image1 {
+    z-index: 2;
+    position:absolute;
+    display: inline;
+}
+
+.overlay:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  margin-top: 60px;
+  margin-left: 60px;
+  height: 444px;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  /*background-color: rgba(242,237, 237, 0.2);*/
+  background-color: rgba(0,0,0,0.2);
+  opacity: 0;
+  color:;
+  transition: .5s ease;
+  z-index:3;
+  margin-right: 593px;
+  width: 700px;
+  height: 450px;
+}
+
+.date {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.credit {
+    margin-left: 630px;
+    margin-top: 220px;
+    color: pink;
+}
+
+
+.content1 {
+    margin-left: 790px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    color: #c0b283;
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+#tags {
+    padding-top: 60px;
+    margin-left: 790px;
+    margin-bottom: 0px;
+    font-size: 23px;
+    font-family: 'Marck Script', cursive;
+    margin-right: 150px;
+}
+
+.continue:hover{
+  color: #FCC9B9;
+  cursor: pointer;
+}
+
+.article1 {
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.content1:hover{
+  color: #FCC9B9;
+  cursor: pointer;
+}
+
+.description {
+    margin-left: 790px;
+    font-size: 18px;
+    margin-right: 150px;
+    padding-top: 10px;
+    padding-right: 0px;
+    font-family: 'Arapey', serif;
+    color: grey;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.continue {
+    padding-top: 20px;
+    margin-left: 790px;
+    font-size: 18px;
+    margin-right: 50px;
+    color: #c0b283;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+/*ARTICLE 2 STARTS HERE*/
+.article2 {
+}
+
+#shadow2 {
+    z-index: 0;
+    position:absolute;
+    padding-top: 45px;
+    padding-left: 640px;
+    size: contain;
+}
+
+#image2 {
+    z-index: 2;
+    position:absolute;
+    display: inline;
+    margin-left: 650px;
+}
+
+.overlay2:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.container2 {
+  position: relative;
+  margin-top: 60px;
+  height: 444px;
+}
+
+.text2 {
+  color: white;
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay2 {
+  position: absolute;
+  /*background-color: rgba(242,237, 237, 0.2);*/
+  background-color: rgba(0,0,0,0.2);
+  opacity: 0;
+  transition: .5s ease;
+  z-index:3;
+  width: 600px;
+  height: 400px;
+  margin-left: 650px;
+}
+
+.date2 {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.credit2 {
+    margin-top: 170px;
+    margin-left: 540px;
+    color: pink;
+}
+
+
+.content2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    color: #c0b283;
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 680px;
+    text-align: right;
+}
+
+
+#tags2 {
+     padding-top: 60px;
+    margin-bottom: 0px;
+    font-size: 23px;
+    font-family: 'Marck Script', cursive;
+    margin-right: 680px;
+    text-align: right;
+}
+
+.continue2:hover{
+  color: #FCC9B9;
+  cursor: pointer;
+}
+
+.article2 {
+}
+
+.content2:hover{
+  color: #FCC9B9;
+  cursor: pointer;
+}
+
+.description2 {
+    font-size: 18px;
+    margin-right: 680px;
+    padding-top: 10px;
+    padding-right: 0px;
+    font-family: 'Arapey', serif;
+    color: grey;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.continue2 {
+    padding-top: 20px;
+    font-size: 18px;
+    margin-right: 680px;
+    color: #c0b283;
+    font-family: 'Comfortaa', cursive;
+    text-align: right;
+}
+
+
+.totalarticle2 {
+    margin-top: 200px;
+}
+
+#shadow3 {
+    z-index: 0;
+    position:absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+    size: contain;
+}
+
+#quotetext {
+    position: absolute;
+    margin-left: 80px;
+    margin-right: 1050px;
+    z-index: 4;
+    margin-top: 110px;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    color: #636363;
+}
+
+
+.quote {
+}
+
+#quoteauthor {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 75px;
+    z-index:4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-right: 1050px;
+    color: grey;
+}
+
+#shadow4 {
+    margin-left: 150px;
+    margin-top: 400px;
+}
+
+#quotetext2 {
+    position: absolute;
+    margin-left: 190px;
+    margin-right: 900px;
+    z-index: 4;
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+    color: #636363;
+}
+
+
+.quote2 {
+    margin-left: 0;
+}
+
+#quoteauthor2 {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 200px;
+    z-index:4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-right: 900px;
+    color: grey;
+}
+
+#image4 {
+    margin-right: 40px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 700px;
+    z-index: 2;
+}
+
+#shadow5 {
+    margin-left: 780px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0px;
+    margin-top: 150px;
+}
+
+.overlay3 {
+  position: absolute;
+  margin-left: 700px;
+  margin-top: 80px;
+  background-color: rgba(0,0,0,0.2);
+  opacity: 0;  transition: .5s ease;
+  z-index:3;
+  width: 550px;
+  height: 800px;
+}
+
+.overlay3:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.credit3 {
+    margin-top: 565px;
+    margin-left: 485px;
+    color: pink;
+}
+
+.tags4 {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    font-size: 23px;
+    font-family: 'Marck Script', cursive;
+    margin-right: 1800px;
+    text-align: right;
+    margin-left: 50px;
+}
+
+.content3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 37px;
+    color: #c0b283;
+    padding-top: 10px;
+    display: inline-block;
+    margin-right: 800px;
+    margin-left: 50px;
+}
+
+.continue3:hover{
+  color: #FCC9B9;
+  cursor: pointer;
+}
+
+.content3:hover{
+  color: #FCC9B9;
+  cursor: pointer;
+}
+
+.description3 {
+    font-size: 18px;
+    margin-right: 300px;
+    padding-top: 20px;
+    padding-right: 0px;
+    font-family: 'Arapey', serif;
+    color: grey;
+    line-height: 22px;
+    margin-left: 50px;
+    letter-spacing: 1px;
+}
+
+.continue3 {
+    padding-top: 20px;
+    font-size: 18px;
+    margin-right: 680px;
+    color: #c0b283;
+    font-family: 'Comfortaa', cursive;
+    margin-left: 50px;
+}
+
+.your-class {
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  margin-right: 60px;
+  margin-top: 1730px;
+  margin-left: 50px;
+}
+
+#slide {
+  width: 0px !important;
+  position: absolute;
+}
+
+#slide:hover {
+  cursor: pointer;
+  opacity: 1;
+
+}
+
+.instagram {
+  margin-top: 50px;
+  margin-left: 530px;
+  margin-bottom: 30px;
+}
+
+
+.instagram a {
+  font-family: 'Reenie Beanie', cursive;
+  color: #c0b283;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.instagram a:hover {
+  color: #FCC9B9;
+}
+
+#instaoverlay {
+  position:relative;
+  height:200px;
+  width:310px;
+  z-index: 1000;
+  background-color: grey;
+}
+
+#instaoverlay:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: grey;
+}
+
+.imageonly {
+  position:relative;
+  z-index: 1;
+}
+
+body {
+  margin: 0;
+}
+
+.shadow6 {
+  position: absolute;
+  margin-top: 1800px;
+  margin-left: 20px;
+}
+
+.socialmedia {
+  background-color: #f2eded;
+  margin-top: 150px;
+  padding-bottom: 120px;
+  height: 50px;
+  margin-left: 0px !important;
+  opacity: 0.7;
+}
+
+.contact-bar {
+    padding-top: 15px;
+     word-spacing: 40px;
+     margin-left: 50px;
+}
+ .contact-link {
+     background-color: transparent;
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     display: inline-block;
+}
+ .contact-link svg {
+     fill: pink;
+    /*svg appearance (social media icons)*/
+}
+ .contact-link path {
+     fill: black;
+}
+
+#footertext{
+  font-family: 'Reenie Beanie', cursive;
+  text-decoration: bold;
+  color: #c0b283;
+  font-size: 40px;
+  padding-top: 30px;
+  margin-left: 50px;
+}
+
+#copyright {
+  margin-top: 15px;
+  color: grey;
+  font-family: 'Lato', sans-serif;
+  margin-left: 50px;
+  font-size: 13px;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 1000; /* Make sure it does not overlap */
+  background-color: transparent;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: black;
+  font-size: 30px;
+}
+
+#myBtn:hover {
+  background-color: #FCC9B9; /* Add a dark-grey background on hover */
+}
+
+.scrollTop {
+  transition: all 0.5s ease 0s;
+}
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Arapey', serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Vidaloka', serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Prata', serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Cormorant', serif;
+font-family: 'Unna', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Cantata One', serif;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Rufina', serif;*/
